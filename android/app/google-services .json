@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188789228365",
+    "project_id": "diaguard-da364",
+    "storage_bucket": "diaguard-da364.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188789228365:android:b4a5f6b6caa15a2b43ed04",
+        "android_client_info": {
+          "package_name": "com.example.diaguard1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH6n1HxohQv-EFQMfRpHyJF36n9dLvdoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

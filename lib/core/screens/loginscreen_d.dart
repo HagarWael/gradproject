@@ -6,7 +6,7 @@ late TextEditingController phnum;
 class LoginScreenD extends StatefulWidget {
   final bool choice; // true for doctor, false for patient
 
-  const LoginScreenD({Key? key, required this.choice}) : super(key: key);
+  const LoginScreenD({super.key, required this.choice});
 
   @override
   _LoginScreenDState createState() => _LoginScreenDState();
@@ -65,7 +65,7 @@ class _LoginScreenDState extends State<LoginScreenD> {
                           child: Text(
                             "ادخل رقم الهاتف",
                             style: TextStyle(
-                              color: Color.fromRGBO(117, 121, 122, 1),
+                              color: Color.fromRGBO(248, 253, 255, 1),
                               fontSize: 22,
                             ),
                           ),
@@ -75,7 +75,7 @@ class _LoginScreenDState extends State<LoginScreenD> {
                           child: Text(
                             "سيتم استخدام الرقم لتسجيل الدخول",
                             style: TextStyle(
-                              color: Color.fromRGBO(134, 138, 139, 1),
+                              color: Color.fromRGBO(237, 244, 246, 1),
                               fontSize: 20,
                             ),
                           ),
@@ -91,7 +91,7 @@ class _LoginScreenDState extends State<LoginScreenD> {
                                   '+20',
                                   style: TextStyle(
                                     fontSize: 23,
-                                    color: Color.fromRGBO(117, 121, 122, 1),
+                                    color: Color.fromRGBO(229, 235, 236, 1),
                                   ),
                                 ),
                               ),

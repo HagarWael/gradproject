@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:diaguard1/core/screens/loginscreen.dart';
 import 'package:diaguard1/core/screens/loginscreen_d.dart';
@@ -6,6 +5,8 @@ import 'package:diaguard1/core/screens/loginscreen_d.dart';
 late bool choice;
 
 class AppUser extends StatefulWidget {
+  const AppUser({super.key});
+
   @override
   _AppUserState createState() => _AppUserState();
 }

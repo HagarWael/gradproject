@@ -4,6 +4,8 @@ bool selected = false;
 late TextEditingController phnum;
 
 class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
@@ -31,7 +33,7 @@ class _LoginScreenState extends State<LoginScreen> {
               fit: BoxFit.contain,
             ),
           ),
-          Container(
+          SizedBox(
             height: double.infinity,
             width: double.infinity,
 
